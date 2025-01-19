@@ -1,6 +1,5 @@
 const SimpleForm = () => {
   const handleSubmit = (e) => {
-    console.log("Form Submitted");
     e.preventDefault();
     console.log(e.target.name.value);
     console.log(e.target.email.value);
