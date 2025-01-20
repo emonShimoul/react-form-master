@@ -14,6 +14,7 @@ const GrandPa = () => {
     <div className="grandpa">
       <h2>GrandPa</h2>
       <p>Net money: {money}</p>
+      {/* context api */}
       <MoneyContext.Provider value={[money, setMoney]}>
         <AssetContext.Provider value="gold">
           <section className="flex">

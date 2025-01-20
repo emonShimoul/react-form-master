@@ -12,5 +12,4 @@
  *
  * 6. reusable component
  *
- *
  */
